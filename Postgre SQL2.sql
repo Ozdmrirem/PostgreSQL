@@ -55,3 +55,12 @@
 
 --Update musteri set bakiye=5800 where ad='Emel' and sehir='Bursa'
 
+--Select * from musteri where bakiye=min(bakiye) --ERROR:WHERE içinde aggregate fonksiyonlara izin verilmez
+
+--select sehir,count(*) as kişi from musteri group by sehir order by count(*) desc
+
+--Select sehir,sum(bakiye) from musteri group by sehir
+
+--Select sehir,avg(bakiye) from musteri group by sehir
+
+--Select sehir,count(*) from musteri group by sehir

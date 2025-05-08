@@ -64,3 +64,5 @@
 --Select sehir,avg(bakiye) from musteri group by sehir
 
 --Select sehir,count(*) from musteri group by sehir
+
+

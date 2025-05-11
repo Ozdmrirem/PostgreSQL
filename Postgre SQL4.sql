@@ -1,0 +1,5 @@
+--SELECT * FROM public.urun ORDER BY id ASC 
+--truncate table urun
+--Select * from urun
+--Select musteri.ad,soyad,sehir,meslek.ad from musteri 
+--inner join meslek on musteri.meslek=meslek.id

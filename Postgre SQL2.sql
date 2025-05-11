@@ -63,6 +63,17 @@
 
 --Select sehir,avg(bakiye) from musteri group by sehir
 
---Select sehir,count(*) from musteri group by sehir
+--Select sehir,count(*) from musteri group by sehir having count(*)>3
+
+--Select avg(bakiye) as ortalama,sehir from musteri group by sehir 
+
+--Select avg(bakiye) as ortalama,sehir from musteri group by sehir having avg(bakiye)>5000
+
+--Select avg(bakiye) as ortalama,sehir from musteri group by sehir having avg(bakiye)>5000 and sehir like '%u%'
+
+--Select * from musteri where bakiye=(select max(bakiye) from musteri)
+
+--Select * from musteri where bakiye=(select max(bakiye) from musteri where sehir='İstanbul')
+
 
 

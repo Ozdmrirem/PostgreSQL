@@ -81,8 +81,19 @@
 
 --Select floor(4.85) -->4
 
---Select PI() -->3.141592653589793
+--Select pi() -->3.141592653589793
 
 --Select power(2,4) -->16
 
 --Select Random() 
+
+--Select Round(18.12345,2) --> 18.12
+
+--Select sign(-5) --> -1
+--Select sign(5) --> 1
+
+--Select Sqrt(625) --> 25
+
+--Select Log(100) --> 2
+
+
